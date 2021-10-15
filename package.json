@@ -5,7 +5,7 @@
     "build": "gridsome build",
     "develop": "gridsome develop --port 4139 --host 0.0.0.0",
     "explore": "gridsome explore",
-    "start": "npm run build && npm run start"
+    "start": "npm run build && npm run develop"
   },
   "dependencies": {
     "gridsome": "^0.7.0"
