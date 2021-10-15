@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "gridsome build",
-    "develop": "gridsome develop --port 4139 --host 0.0.0.0",
+    "develop": "gridsome develop --port $PORT --host $HOST",
     "explore": "gridsome explore",
     "start": "npm run build && npm run develop"
   },
