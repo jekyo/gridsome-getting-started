@@ -1,0 +1,13 @@
+{
+  "name": "gridsome-demo",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop --port 4139 --host 0.0.0.0",
+    "explore": "gridsome explore",
+    "start": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  }
+}
